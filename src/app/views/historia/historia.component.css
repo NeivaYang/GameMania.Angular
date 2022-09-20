@@ -1,0 +1,21 @@
+.historia{
+    background-color: #2e6cbd;
+    display: flex;
+}
+.conteudo{
+    padding: 23px;
+    font-family: KoHo;
+           
+}
+p, ul, li{
+    font-size: 23px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}

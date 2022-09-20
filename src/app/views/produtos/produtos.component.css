@@ -1,0 +1,22 @@
+.todosprodutos{
+    background-color:#2e6cbd;
+    height: 100%;
+    
+}
+.cardprodutos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+.produto{
+    height: 300px;
+    width: 260px;
+    margin: 15px;
+}
+.card{
+    height: 300px;
+    width: 260px;
+    padding: 15px;
+   
+}

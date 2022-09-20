@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+/* trazer o @import da fonte KohO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.conteinergrid{
+    width: 1200px;
+    margin: 0 auto;
+}
+ @media screen and (max-width: 1150px) {
+    .conteinergrid {
+        width: 100%;
+    }
+ }
+ @media screen and (max-width: 900px) {
+    .conteinergrid {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+ }

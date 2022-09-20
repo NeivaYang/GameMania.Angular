@@ -1,0 +1,18 @@
+<app-header></app-header>
+<section class="fale">
+    <div class="conteinergrid faleconosco">
+        <form action="" (ngSubmit)="mensagem()">
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Escreva seu nome" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+                <!--<input type="text" name="mensagem" id="mensagem" required>-->
+                <input type="submit" id="enviar">
+            </div>
+        </form>
+    </div>
+</section>
+<app-footer></app-footer>

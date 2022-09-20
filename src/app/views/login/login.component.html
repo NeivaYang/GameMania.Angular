@@ -1,0 +1,17 @@
+<app-header></app-header>
+<section class="conteinergrid login">
+    <form class="acessar"  (ngSubmit)="acesso()">
+        <div class="conteudoacesso">               
+                <label for="user">usuario:</label>
+                <input type="email" name="email" id="user" placeholder="Email" required [(ngModel)]="userModel.email">               
+            
+                <label for="password">senha:</label>
+                <input type="password" name="password" id="password" placeholder="Sua senha aqui..." required [(ngModel)]="userModel.password">
+            
+            <button id="enviar" type="submit">login</button>
+        </div>
+    </form>
+</section>
+<p id="mensagem" *ngIf=" mensagem != '' "> {{ mensagem }} </p>
+<p *ngIf=" usuarioLogado != '' ">{{ usuarioLogado }}</p>
+<app-footer></app-footer>

@@ -1,0 +1,42 @@
+footer{
+    background-color: #042E54;
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;    
+}
+footer p{
+    font-size: 16px;
+    font-family: KoHo;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.contato{
+     margin-top: 3px;
+    justify-content: space-between;
+}
+.redesocial{
+    display: flex;
+    justify-content: space-between; 
+}
+.contato img{
+    height: 30px;
+    width: 30px;    
+}
+@media screen and (max-width: 1150px) {
+    .rodape{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 660px) {
+    .rodape{
+        flex-direction: column-reverse;
+        height: 450px;
+    } 
+}

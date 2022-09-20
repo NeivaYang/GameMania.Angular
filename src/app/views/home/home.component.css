@@ -1,0 +1,122 @@
+.bannervendas{
+   background-color: #0C64E9;   
+   width: 100%; 
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 330px;    
+}
+.boxhover{
+    height: 300px;
+    width: 280px;
+    overflow: hidden;
+    position: relative;    
+}
+.boxhover img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    position: relative;    
+}
+.boxhover:hover img{    
+    transform: scale(1.2);
+    position: absolute;
+}
+.boxprodutos a{
+    margin-top: 35%;
+    display: flex;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    background-color: #131f31;
+    opacity: 0.7;
+}
+.bannercomunica{ 
+    background-image: url(/assets/IMG/fundo\ banner\ comunidade.svg);   
+}
+.conteudocomunica{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    
+}
+.conteudocomunica p{
+    font-size: 16px;
+    font-family: koHo, sans-serif;
+    margin: 10px;
+}
+.conteinerjogo button{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: KoHo;
+    text-transform: uppercase;
+    font-size: bold;
+}
+.conteinerjogo{
+    height: 400px;
+    width: 440px;
+    background-color: #0C64E9;    
+}
+.conteinerjogo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .conteinergrid {
+        width: 100%;
+    }
+    .cabeçalho{
+        width: 90vw;
+    }
+    .produtos img{
+        padding: 6px;
+    }
+    .rodape{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 900px) {
+    .conteinergrid {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .bannercomunica p{
+        display: none;
+    }
+    .conteinerjogo{
+        height: 215px;
+        width: 250px;
+    }
+    .conteinerjogo button{
+        font-size: 21px;
+    }
+}    
+@media screen and (max-width: 660px) {
+       .rodape{
+           flex-direction: column-reverse;
+           height: 450px;
+       } 
+       .barras{
+           display: inline-block; 
+           color: #ffff;          
+       }
+       .cabeçalho{
+           position: relative;
+       }
+       .menu{
+           display: none;
+           position: absolute;
+           top: 125px;
+           z-index: 2;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+           background-color: #0C64E9;
+           height: 230px;
+           width: 130px;
+       }
+}
